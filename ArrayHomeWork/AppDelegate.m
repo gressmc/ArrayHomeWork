@@ -156,6 +156,8 @@
 
 
 -(void)printArray:(NSArray*)array{
+    
+    /*
     for (int i=0; i<[array  count]; i++) {
         Human* human = [array objectAtIndex:i];
         Animal* animal = [array objectAtIndex:i];
@@ -173,6 +175,30 @@
             NSLog(@"--------------------");
         }
         if ([animal isKindOfClass:[Animal class]]) {
+            NSLog(@"%@",animal.type);
+            [animal movement];
+            NSLog(@"%@ - %@",animal.name,animal.color);
+            NSLog(@"--------------------");
+        }
+    }
+    */
+    for (NSObject* obj in array) {
+        if ([obj isKindOfClass:[Human class]]) {
+            Human* human = (Human*)obj;
+            NSLog(@"%@", human.type);
+            NSString* gender = human.gender ? @"woman" : @"Man";
+            [human movement];
+            NSLog(@"height=%.2fm weight=%.1fkg",human.height,human.weight);
+            NSLog(@"And it was a %@",gender);
+            
+            if ([human isKindOfClass:[PhotoModel class]]) {
+                PhotoModel* model = (PhotoModel*)human;
+                NSLog(@"Моделька на обложке %@ в возрасте %lu", model.journal, model.age);
+            }
+            NSLog(@"--------------------");
+        }
+        if ([obj isKindOfClass:[Animal class]]) {
+            Animal* animal = (Animal*)obj;
             NSLog(@"%@",animal.type);
             [animal movement];
             NSLog(@"%@ - %@",animal.name,animal.color);
