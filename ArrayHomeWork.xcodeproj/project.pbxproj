@@ -14,6 +14,15 @@
 		841682AA19F1CCA6000390DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841682A919F1CCA6000390DF /* Images.xcassets */; };
 		841682AD19F1CCA7000390DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841682AB19F1CCA7000390DF /* LaunchScreen.xib */; };
 		841682B919F1CCA7000390DF /* ArrayHomeWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841682B819F1CCA7000390DF /* ArrayHomeWorkTests.m */; };
+		841682C419F1CCCE000390DF /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 841682C319F1CCCE000390DF /* Human.m */; };
+		841682C719F1CF2E000390DF /* Biker.m in Sources */ = {isa = PBXBuildFile; fileRef = 841682C619F1CF2E000390DF /* Biker.m */; };
+		841682CA19F1CF6E000390DF /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = 841682C919F1CF6E000390DF /* Runner.m */; };
+		841682CD19F1CF8A000390DF /* Diver.m in Sources */ = {isa = PBXBuildFile; fileRef = 841682CC19F1CF8A000390DF /* Diver.m */; };
+		841682D019F1DD77000390DF /* PhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 841682CF19F1DD77000390DF /* PhotoModel.m */; };
+		84FCAA0619F2637E00159C6B /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FCAA0519F2637E00159C6B /* Animal.m */; };
+		84FCAA0B19F263D900159C6B /* Rabbit.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FCAA0A19F263D900159C6B /* Rabbit.m */; };
+		84FCAA0E19F2648800159C6B /* Snake.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FCAA0D19F2648800159C6B /* Snake.m */; };
+		84FCAA1119F264E400159C6B /* Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FCAA1019F264E400159C6B /* Pig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,24 @@
 		841682B219F1CCA7000390DF /* ArrayHomeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrayHomeWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841682B719F1CCA7000390DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841682B819F1CCA7000390DF /* ArrayHomeWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayHomeWorkTests.m; sourceTree = "<group>"; };
+		841682C219F1CCCE000390DF /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Human.h; path = ../Human.h; sourceTree = "<group>"; };
+		841682C319F1CCCE000390DF /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Human.m; path = ../Human.m; sourceTree = "<group>"; };
+		841682C519F1CF2E000390DF /* Biker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Biker.h; sourceTree = "<group>"; };
+		841682C619F1CF2E000390DF /* Biker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Biker.m; sourceTree = "<group>"; };
+		841682C819F1CF6E000390DF /* Runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = "<group>"; };
+		841682C919F1CF6E000390DF /* Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
+		841682CB19F1CF8A000390DF /* Diver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diver.h; sourceTree = "<group>"; };
+		841682CC19F1CF8A000390DF /* Diver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Diver.m; sourceTree = "<group>"; };
+		841682CE19F1DD77000390DF /* PhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoModel.h; sourceTree = "<group>"; };
+		841682CF19F1DD77000390DF /* PhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoModel.m; sourceTree = "<group>"; };
+		84FCAA0419F2637E00159C6B /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		84FCAA0519F2637E00159C6B /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		84FCAA0919F263D900159C6B /* Rabbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rabbit.h; sourceTree = "<group>"; };
+		84FCAA0A19F263D900159C6B /* Rabbit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rabbit.m; sourceTree = "<group>"; };
+		84FCAA0C19F2648800159C6B /* Snake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snake.h; sourceTree = "<group>"; };
+		84FCAA0D19F2648800159C6B /* Snake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Snake.m; sourceTree = "<group>"; };
+		84FCAA0F19F264E400159C6B /* Pig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
+		84FCAA1019F264E400159C6B /* Pig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +108,10 @@
 		8416829B19F1CCA6000390DF /* ArrayHomeWork */ = {
 			isa = PBXGroup;
 			children = (
+				84FCAA0719F2638F00159C6B /* Human */,
 				841682A019F1CCA6000390DF /* AppDelegate.h */,
 				841682A119F1CCA6000390DF /* AppDelegate.m */,
+				84FCAA0819F263A600159C6B /* Animal */,
 				841682A319F1CCA6000390DF /* ViewController.h */,
 				841682A419F1CCA6000390DF /* ViewController.m */,
 				841682A619F1CCA6000390DF /* Main.storyboard */,
@@ -117,6 +146,38 @@
 				841682B719F1CCA7000390DF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FCAA0719F2638F00159C6B /* Human */ = {
+			isa = PBXGroup;
+			children = (
+				841682CE19F1DD77000390DF /* PhotoModel.h */,
+				841682CF19F1DD77000390DF /* PhotoModel.m */,
+				841682C219F1CCCE000390DF /* Human.h */,
+				841682C319F1CCCE000390DF /* Human.m */,
+				841682C819F1CF6E000390DF /* Runner.h */,
+				841682C919F1CF6E000390DF /* Runner.m */,
+				841682CB19F1CF8A000390DF /* Diver.h */,
+				841682CC19F1CF8A000390DF /* Diver.m */,
+				841682C519F1CF2E000390DF /* Biker.h */,
+				841682C619F1CF2E000390DF /* Biker.m */,
+			);
+			name = Human;
+			sourceTree = "<group>";
+		};
+		84FCAA0819F263A600159C6B /* Animal */ = {
+			isa = PBXGroup;
+			children = (
+				84FCAA0419F2637E00159C6B /* Animal.h */,
+				84FCAA0519F2637E00159C6B /* Animal.m */,
+				84FCAA0C19F2648800159C6B /* Snake.h */,
+				84FCAA0D19F2648800159C6B /* Snake.m */,
+				84FCAA0F19F264E400159C6B /* Pig.h */,
+				84FCAA1019F264E400159C6B /* Pig.m */,
+				84FCAA0919F263D900159C6B /* Rabbit.h */,
+				84FCAA0A19F263D900159C6B /* Rabbit.m */,
+			);
+			name = Animal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +280,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FCAA1119F264E400159C6B /* Pig.m in Sources */,
+				84FCAA0E19F2648800159C6B /* Snake.m in Sources */,
 				841682A519F1CCA6000390DF /* ViewController.m in Sources */,
+				841682CA19F1CF6E000390DF /* Runner.m in Sources */,
+				841682D019F1DD77000390DF /* PhotoModel.m in Sources */,
+				841682C719F1CF2E000390DF /* Biker.m in Sources */,
 				841682A219F1CCA6000390DF /* AppDelegate.m in Sources */,
 				8416829F19F1CCA6000390DF /* main.m in Sources */,
+				84FCAA0619F2637E00159C6B /* Animal.m in Sources */,
+				841682CD19F1CF8A000390DF /* Diver.m in Sources */,
+				841682C419F1CCCE000390DF /* Human.m in Sources */,
+				84FCAA0B19F263D900159C6B /* Rabbit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +484,7 @@
 				841682BE19F1CCA7000390DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		841682BF19F1CCA7000390DF /* Build configuration list for PBXNativeTarget "ArrayHomeWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +493,7 @@
 				841682C119F1CCA7000390DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
