@@ -147,10 +147,10 @@
     NSLog(@"||||||||||||||||||||||");
     NSLog(@"--------------------");
     
-    NSSortDescriptor *sortDescriptorOne = [[NSSortDescriptor alloc] initWithKey: @"type" ascending: NO];
-    NSSortDescriptor *sortDescriptorTwo = [[NSSortDescriptor alloc] initWithKey: @"name" ascending: YES];
-    NSArray *sortedArrayWithPeoplesAndAnimals = [array sortedArrayUsingDescriptors:[NSArray arrayWithObjects:sortDescriptorOne,sortDescriptorTwo, nil]];
-    [self printArray:sortedArrayWithPeoplesAndAnimals];
+    NSSortDescriptor *sortOne = [[NSSortDescriptor alloc] initWithKey: @"type" ascending: NO];
+    NSSortDescriptor *sortTwo = [[NSSortDescriptor alloc] initWithKey: @"name" ascending: YES];
+    NSArray *sortedArray = [array sortedArrayUsingDescriptors:[NSArray arrayWithObjects:sortOne,sortTwo, nil]];
+    [self printArray:sortedArray];
     return YES;
 }
 
