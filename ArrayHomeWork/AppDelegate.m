@@ -125,12 +125,14 @@
     NSLog(@"--------------------");
     
     NSArray* arrayAnimal = @[animal,snake,rabbit,pig];
-    NSUInteger countH = [arrayHuman count];
-    NSUInteger countA = [arrayAnimal count];
-    NSUInteger countAll = countA>countH ? countA : countH;
+    //NSUInteger countH = [arrayHuman count];
+    //NSUInteger countA = [arrayAnimal count];
+    //NSUInteger countAll = countA>countH ? countA : countH;
     // NSUInteger countAll = MAX([arrayHuman count], [arrayAnimal count]);
+    
     NSMutableArray* array = [NSMutableArray new];
-    for (int i=0; i<countAll; i++) {
+    
+    for (int i=0; i< MAX([arrayHuman count], [arrayAnimal count]); i++) {
         if (i<[arrayHuman count]) {
             [array addObject:[arrayHuman objectAtIndex:i]];
         }
